@@ -1,8 +1,8 @@
 export type User  = {
-    _id:String,
-    email:String,
-    name:String,
-    adressLine1:String,
-    city:String,
-    country:String,
+    _id:string,
+    email:string,
+    name:string,
+    adressLine1:string,
+    city:string,
+    country:string,
 }
