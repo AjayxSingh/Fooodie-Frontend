@@ -10,7 +10,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {;
   const navigate = useNavigate();
 
   const audience = "Foodie-Food-Ordering-API";
-  const onRedirectCallback = (appState?: AppState , user?:User) => {
+  const onRedirectCallback = () => {
     navigate('/auth-callback');
   };
 
