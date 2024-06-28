@@ -22,7 +22,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {;
       clientId="kV7uHD33xPK71v6JNGN5SWQqGrtyKJtl"
       authorizationParams={{
         audience,
-        redirect_uri: "http://localhost:5173/"
+        redirect_uri: "https://fooodie-frontend.onrender.com"
       }}
       onRedirectCallback={onRedirectCallback}
     >
